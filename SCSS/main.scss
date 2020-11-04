@@ -6,9 +6,14 @@ $color-two: rgb(43, 45, 47);
 $color-three: rgb(69, 86, 125);
 $color-four: rgb(48, 56, 65);
 
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
 a {
   text-decoration: none;
-  color: black;
 }
 
 a:hover {
@@ -18,3 +23,48 @@ a:hover {
 li {
   list-style: none;
 }
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: $color-one;
+  height: 10vh;
+}
+
+.nav-it {
+  color: white;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
+
+.welcomesection {
+  background-color: $color-two;
+  height: 100vmin;
+  .inner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: inherit;
+    .mimic {
+      font-size: 3.5rem;
+    }
+    .web-developer {
+      font-weight: lighter;
+      font-style: italic;
+      color: $color-one;
+    }
+  }
+}
+
+// body {
+//     color: #ddd;
+// color: #3e8e41;
+// }
