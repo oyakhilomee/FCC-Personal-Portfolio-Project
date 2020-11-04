@@ -5,3 +5,16 @@ $color-one: rgb(190, 49, 68);
 $color-two: rgb(43, 45, 47);
 $color-three: rgb(69, 86, 125);
 $color-four: rgb(48, 56, 65);
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
