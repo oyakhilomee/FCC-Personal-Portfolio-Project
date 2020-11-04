@@ -14,6 +14,7 @@ html {
 
 a {
   text-decoration: none;
+  color: #ffff;
 }
 
 a:hover {
@@ -64,7 +65,54 @@ body {
   }
 }
 
+#projects {
+  background-color: $color-three;
+}
+
+.project-title {
+  text-align: center;
+  font-size: 2.4rem;
+  width: 100%;
+  max-width: 70%;
+  margin: auto;
+  line-height: 3rem;
+  padding-bottom: 1rem;
+  padding-top: 3rem;
+}
+
+.horizontal {
+  margin: 0 auto;
+  background-color: #fff;
+  height: 0.15rem;
+  margin-bottom: 4.5em;
+  border: none;
+  width: 50%;
+}
+
 // body {
 //     color: #ddd;
 // color: #3e8e41;
 // }
+
+img {
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex: 1;
+
+  margin-top: 1rem;
+}
+
+.tribute-page {
+  background-color: $color-four;
+  width: 100%;
+  padding-top: 1rem;
+  max-width: 90%;
+  margin-bottom: 7rem;
+  height: 3rem;
+  margin: 0 auto;
+  text-align: center;
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
