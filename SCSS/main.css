@@ -40,6 +40,13 @@ body {
   width: 100%;
 }
 
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
 .nav-it {
   color: white;
   margin-right: 1rem;
@@ -95,6 +102,12 @@ body {
   padding-top: 3rem;
 }
 
+@media screen and (min-width: 768px) {
+  .project-tile {
+    padding: 0 20px 20px;
+  }
+}
+
 .horizontal {
   margin: 0 auto;
   background-color: #fff;
@@ -109,12 +122,25 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
 img {
   width: 100%;
-  max-width: 90%;
+  max-width: 22.22rem;
+  height: 100%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -123,34 +149,47 @@ img {
       -ms-flex: 1;
           flex: 1;
   margin-top: 3rem;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-@media screen and (min-width) {
+@media screen and (min-width: 768px) {
   img {
     width: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 22.22rem;
   }
+}
+
+img:hover {
+  -webkit-transition: ease 1s;
+  transition: ease 1s;
+  background-color: rgba 0, 0, 0, 0.6;
 }
 
 .page-desc {
   background-color: #303841;
   width: 100%;
-  padding-top: 1rem;
-  max-width: 90%;
+  max-width: 22.22rem;
   margin-bottom: 7rem;
   height: 3rem;
-  margin: 0 auto;
+  margin: auto;
+  padding-top: 1rem;
   text-align: center;
   border-bottom-right-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
 }
 
+@media screen and (min-width: 768px) {
+  .page-desc {
+    width: 100%;
+    max-width: 22.22rem;
+  }
+}
+
 .btn-show {
-  padding: 1rem 2.5rem 1rem 2.5rem;
+  padding: 1rem 2rem 1rem 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -164,6 +203,10 @@ img {
   margin-top: 2rem;
   border-radius: 0.2rem;
   font-size: 1.2rem;
+}
+
+.btn-show .fa-arrow-right {
+  padding-left: 0.7rem;
 }
 
 .social {
@@ -196,12 +239,13 @@ img {
       -ms-flex: 1;
           flex: 1;
   margin: 0 auto;
+  margin-top: 2rem;
 }
 
 .social .social-icon .fab,
 .social .social-icon .fas {
   font-size: 1.3rem;
-  padding-right: 2rem;
+  margin: 0 0.5rem 0 2rem;
 }
 
 .horizontal-two {
