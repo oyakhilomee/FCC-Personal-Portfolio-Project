@@ -15,9 +15,15 @@
   <body>
     <nav id="navbar">
       <ul class="navbar">
-        <li class="nav-item"><a href="" class="nav-it about">About</a></li>
-        <li class="nav-item"><a href="" class="nav-it work">Work</a></li>
-        <li class="nav-item"><a href="" class="nav-it contact">Contact</a></li>
+        <li class="nav-item">
+          <a href="#welcome-section" class="nav-it about">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#projects" class="nav-it work">Work</a>
+        </li>
+        <li class="nav-item">
+          <a href="#social" class="nav-it contact">Contact</a>
+        </li>
       </ul>
     </nav>
 
@@ -29,15 +35,15 @@
     </section>
 
     <section id="projects">
-      <div class="inner-2">
+      <div class="inner-">
         <h2 class="project-title">These are some of my projects</h2>
         <hr class="horizontal" />
-        <div>
+        <div class="inner-2">
           <div class="project-tile"></div>
           <!--Project should contain at least one link to a project-->
           <div class="project-tile">
             <img src="./Assets/tribute-page.jpg" alt="" />
-            <a href="">
+            <a href="https://github.com/oyakhilomee/FCC-Survery-Form-Project">
               <p class="tribute-page page-desc">Tribute Page</p>
             </a>
           </div>
@@ -76,14 +82,19 @@
       </div>
     </section>
 
-    <section class="social">
+    <section class="social" id="social">
       <div>
         <h1 class="lets-work">Let's work together...</h1>
         <p class="coffee">How do you take your coffee?</p>
         <div class="social-icon">
           <a href=""><i class="fab fa-facebook-f">Facebook</i></a>
           <a href=""><i class="fab fa-twitter-square">Twitter</i></a>
-          <a href=""><i class="fab fa-github">Github</i></a>
+          <a
+            href="https://github.com/oyakhilomee"
+            id="profile-link"
+            target="_blank"
+            ><i class="fab fa-github">Github</i></a
+          >
           <a href=""><i class="fas fa-at">Send a mail</i></a>
           <a href=""><i class="fas fa-mobile-alt">Call Me</i></a>
         </div>

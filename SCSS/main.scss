@@ -10,6 +10,7 @@ $color-four: rgb(48, 56, 65);
 html {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -37,6 +38,9 @@ body {
   align-items: center;
   background-color: $color-one;
   height: 10vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .nav-it {
@@ -92,10 +96,11 @@ body {
   width: 50%;
 }
 
-// body {
-//     color: #ddd;
-// color: #3e8e41;
-// }
+.inner-2 {
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+}
 
 img {
   width: 100%;
@@ -104,6 +109,12 @@ img {
   display: flex;
   flex: 1;
   margin-top: 3rem;
+
+  @media screen and (min-width) {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
 
 .page-desc {

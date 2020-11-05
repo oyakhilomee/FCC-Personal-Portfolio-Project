@@ -2,6 +2,7 @@
 html {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -34,6 +35,9 @@ body {
           align-items: center;
   background-color: #be3144;
   height: 10vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 .nav-it {
@@ -100,6 +104,14 @@ body {
   width: 50%;
 }
 
+@media screen and (min-width: 768px) {
+  .inner-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 img {
   width: 100%;
   max-width: 90%;
@@ -111,6 +123,17 @@ img {
       -ms-flex: 1;
           flex: 1;
   margin-top: 3rem;
+}
+
+@media screen and (min-width) {
+  img {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
 }
 
 .page-desc {
