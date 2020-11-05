@@ -1,6 +1,6 @@
 ## FCC Personal Portfolio Project
 
-Deployed the static protfolio site to Netlify.
+Deployed the static portfolio site to Netlify.
 
 Click below to check it out.
 
