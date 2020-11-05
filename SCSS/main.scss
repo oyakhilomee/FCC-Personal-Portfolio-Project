@@ -198,12 +198,16 @@ img:hover {
     justify-content: center;
     flex: 1;
     margin: 0 auto;
-    margin-top: 2rem;
-
+    // margin-top: 1rem;
+    flex-wrap: wrap;
     .fab,
     .fas {
-      font-size: 1.3rem;
+      font-size: 2rem;
+      padding-top: 1rem;
       margin: 0 0.5rem 0 2rem;
+      @media screen and (min-width: 768px) {
+        font-size: 1.3rem;
+      }
     }
   }
 }
@@ -217,7 +221,25 @@ img:hover {
 
 .footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: auto;
-  padding: 3rem;
+  padding: 0 0 3rem 0;
+  p {
+    font-size: 1rem;
+  }
+  .footer-text {
+    max-width: 50%;
+    padding-left: 0.7rem;
+    @media screen and (min-width: 768px) {
+      max-width: 100%;
+    }
+  }
+
+  .footer-copyright {
+    padding-left: 1rem;
+  }
+  @media screen and (min-width: 768px) {
+    margin: auto;
+    padding: 3rem;
+  }
 }

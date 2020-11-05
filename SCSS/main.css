@@ -239,13 +239,22 @@ img:hover {
       -ms-flex: 1;
           flex: 1;
   margin: 0 auto;
-  margin-top: 2rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .social .social-icon .fab,
 .social .social-icon .fas {
-  font-size: 1.3rem;
+  font-size: 2rem;
+  padding-top: 1rem;
   margin: 0 0.5rem 0 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .social .social-icon .fab,
+  .social .social-icon .fas {
+    font-size: 1.3rem;
+  }
 }
 
 .horizontal-two {
@@ -259,9 +268,36 @@ img:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin: auto;
-  padding: 3rem;
+  padding: 0 0 3rem 0;
+}
+
+.footer p {
+  font-size: 1rem;
+}
+
+.footer .footer-text {
+  max-width: 50%;
+  padding-left: 0.7rem;
+}
+
+@media screen and (min-width: 768px) {
+  .footer .footer-text {
+    max-width: 100%;
+  }
+}
+
+.footer .footer-copyright {
+  padding-left: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    margin: auto;
+    padding: 3rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */
