@@ -165,7 +165,7 @@ img {
 @media screen and (min-width: 1585px) {
   img {
     width: 100%;
-    max-width: 27.22rem;
+    max-width: 34.37rem;
   }
 }
 
@@ -198,7 +198,7 @@ img:hover {
 @media screen and (min-width: 1585px) {
   .page-desc {
     width: 100%;
-    max-width: 27.22rem;
+    max-width: 34.37rem;
   }
 }
 
