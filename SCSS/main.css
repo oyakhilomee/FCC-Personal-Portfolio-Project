@@ -165,12 +165,8 @@ img {
 @media screen and (min-width: 1585px) {
   img {
     width: 100%;
-    max-width: 22.22rem;
+    max-width: 27.22rem;
   }
-}
-
-.bodye {
-  color: red;
 }
 
 img:hover {
