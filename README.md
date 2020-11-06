@@ -4,4 +4,4 @@ Deployed the static portfolio site to Netlify.
 
 Click below to check it out.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/95ea4a02-00ac-40a5-8724-157d94e09fe9/deploy-status)](https://oyas-fcc.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4d056885-485d-4da6-add4-962615451098/deploy-status)](https://oyas-fc.netlify.app)
