@@ -85,12 +85,6 @@ body {
   }
 }
 
-@media screen and (max-width: 600px) {
-  .welcomesection .inner .mimic {
-    font-size: 2.7rem;
-  }
-}
-
 .welcomesection .inner .web-developer {
   font-weight: lighter;
   font-style: italic;
