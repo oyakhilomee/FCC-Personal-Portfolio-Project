@@ -163,6 +163,10 @@ img:hover {
     width: 100%;
     max-width: 22.22rem;
   }
+  @media screen and (min-width: 1585px) {
+    width: 100%;
+    max-width: 27.22rem;
+  }
 }
 
 .btn-show {

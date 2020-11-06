@@ -195,6 +195,13 @@ img:hover {
   }
 }
 
+@media screen and (min-width: 1585px) {
+  .page-desc {
+    width: 100%;
+    max-width: 27.22rem;
+  }
+}
+
 .btn-show {
   padding: 1rem 2rem 1rem 2rem;
   display: -webkit-box;
