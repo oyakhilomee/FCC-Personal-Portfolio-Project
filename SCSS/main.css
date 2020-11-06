@@ -79,9 +79,9 @@ body {
   font-size: 3.5rem;
 }
 
-@media screen and (min-width: 1585px) {
+@media screen and (max-width: 600px) {
   .welcomesection .inner .mimic {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
 }
 
@@ -94,7 +94,7 @@ body {
 
 @media screen and (max-width: 600px) {
   .welcomesection .inner .web-developer {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 }
 
