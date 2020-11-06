@@ -136,6 +136,10 @@ img {
     height: 22.22rem;
     // max-height: 22.2rem;
   }
+  @media screen and (min-width: 1585px) {
+    width: 100%;
+    max-width: 22.22rem;
+  }
 }
 
 img:hover {
