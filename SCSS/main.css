@@ -166,6 +166,9 @@ img {
   img {
     width: 100%;
     max-width: 34.37rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 34.37rem;
   }
 }
 
@@ -199,6 +202,9 @@ img:hover {
   .page-desc {
     width: 100%;
     max-width: 34.37rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 34.37rem;
   }
 }
 
